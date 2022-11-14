@@ -1,0 +1,122 @@
+
+
+html{
+    background-color: hsl(204, 43%, 93%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
+}
+h2{
+color: hsl(179, 62%, 43%);
+}
+h3{
+    color: hsl(71, 73%, 54%);
+}
+span{
+    font-size: 25px;
+    color: white;
+}
+.text1{
+    text-justify: newspaper;
+}
+.lit{
+    color:hsl(0, 3%, 31%);
+}
+
+.container{
+    position: relative;
+    width: 700px;
+    margin: 100px;
+   
+}
+
+.first{
+    background-color:white;
+    color:hsl(218, 22%, 67%);
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+
+.second{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    line-height: 2em;
+    width: 1000px;
+    border-bottom-left-radius: 10px;
+}
+.third{
+    background-color:hsl(179, 64%, 50%);
+    color:hsl(204, 43%, 93%);
+    line-height: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    width: 1000px;
+    border-bottom-right-radius: 10px;
+}
+
+.section{
+
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    border-style: hidden;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color:hsl(84, 93%, 34%) ;
+    color: rgb(19, 18, 18);
+}
+
+@media screen and (max-width:767px) {
+
+    .container{
+        display: block;
+    }
+    .first{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        width: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius:5px;
+    }
+    
+    .second{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 300px;
+        border-bottom-left-radius: 0px;
+    }
+    .third{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 300px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .section{
+
+        display: block;
+      
+    }
+    
+
+}
+  
